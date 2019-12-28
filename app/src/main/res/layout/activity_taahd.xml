@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taahd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="تعهد
+
+انسجاماً مع حرص جامعة العلوم والتكنولوجبا الاردنية على المحافظة على صحة طلبتها ونظافة بيئتها فإنني اتعهد بالإلتزام بأنظمة الجامعة وعدم التدخين داخل المباني وقاعات التدريس والممرات وعدم القاء اعقاب السجائر في غير الأماكن المخصصة لها وكذلك مراعاة أمور السلامة العامة بالابتعاد عن الأماكن الخطرة والمرتفعة وكل ما يمكن ان يسبب الايذاء الشخصي والعام لأي شخص او لأي طرف أخر أو أي مرفق من مرافق الجامعة المختلفة داخل الحرم الجامعي.
+وبعكس ذلك فانني أتحمل كامل المسؤولية الشخصية والقانونية المترتبة على أي مخالفة أقوم بها بما في ذلك المساءلة القانونية."
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:text="تعهد عدم استخدام الكاميرات
+
+أتعهد بعدم استخدام الكاميرات بأنواعها بما فيها كاميرات أجهزة الهاتف المحمول داخل مباني اسكان الطالبات وعدم تصوير أي طالبة لأي سبب كان دون علمها ومعرفتها ومخالفة ذلك يعتبر اختراق للحقوق الشخصية ولدائرة الاسكان الحق باجراء ما تراه مناسباً من عقوبات بحقي."
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

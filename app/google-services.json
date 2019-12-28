@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "172061893584",
+    "firebase_url": "https://justhousing-86895.firebaseio.com",
+    "project_id": "justhousing-86895",
+    "storage_bucket": "justhousing-86895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172061893584:android:4fbf2507dcb7aab3",
+        "android_client_info": {
+          "package_name": "com.example.newversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172061893584-fksidavt9h777jcg2a97d19hpe3t69g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcuiAh8NGstkKxRg6ryRirYKxcjDylrWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172061893584-fksidavt9h777jcg2a97d19hpe3t69g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172061893584:android:185e1cd9b5abc24c",
+        "android_client_info": {
+          "package_name": "com.just.justhousing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172061893584-l5ohodf9ksujbeh38t3nq021n07o9lmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.just.justhousing",
+            "certificate_hash": "3cb8440582e027feb7f5dc9f83cf05e16006f0e2"
+          }
+        },
+        {
+          "client_id": "172061893584-fksidavt9h777jcg2a97d19hpe3t69g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcuiAh8NGstkKxRg6ryRirYKxcjDylrWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172061893584-fksidavt9h777jcg2a97d19hpe3t69g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

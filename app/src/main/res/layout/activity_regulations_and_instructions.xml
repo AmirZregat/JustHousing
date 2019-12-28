@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regulationsAndInstructions">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text="لوائح و تعليمات السكن"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" تستطيع الطالبة أن تلتحق بغرفة لطالبتين وغرفة مفردة أو غرفة خاصة بحمام أو أستوديو مفرد أو أستوديو مزدوج أو غرفة مفردة بحمام أو غرفة مزدوجة بحمام في سكن الأميرة بسمة  مع تسديد الأجور المقررة و في الأوقات التي تحددها دائرة إسكان الطالبات."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="نظافة الغرفة و ترتيبها من مسؤولية الطالبات المقيمات و للمشرفة الحق في متابعة نظافة الغرفة و مخالفة الطالبة في حالة عدم الالتزام"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="يعتبر الأثاث في الغرفة والقاعات عهدة شخصية فعلى الطالبة المحافظة عليه ويرجى عدم نقله من غرفة إلى غرفة أخرى حتى لا نضطر لتحصيل غرامة مالية من الطالبة في حالة إتلافه"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text=" حرصا على السلامة العامة ، يرجى عدم استخدام الأجهزة الكهربائية الخاصة مثل السخانات الكهربائية ، الميكروويفات ، المكاوي .الخ"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="حفظ الأطعمة في الخزائن المخصصة لها في المطبخ و ليس في غرف النوم."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="تقوم العاملات بتنظيف الممرات و القاعات و المرافق الصحية يوميا فعلى الطالبات التعاون بإبقائها نظيفة ومرتبة"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="على الطالبة التعاون في ترشيد الاستهلاك بالحرص على إطفاء الكهرباء عند مغادرتها للغرفة   والتأكد من إقفال الحنفيات بعد الاستعمال"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="يرجى الحرص على مقتنياتك الشخصية من نقود ، مجوهرات وغيرها، حيث أن إدارة المنزل غير مسؤولة عن ضياعها  و يجب العمل على عدم ترك الغرفة مفتوحة لأي سبب و إيداع ما لديك من أموال أو أشياء ثمينة في بنك الجامعة"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="يمنع التجول بملابس النوم في الممرات ،الأجنحة والقاعات و على الطالبة الظهور بالمظهر اللائق خلال النهار خاصة الطابق الأرضي"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="حرصا على توفير الهدوء و الجو الملائم على الطالبة التعاون بما يلي"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="هدوء المنزل وعدم إزعاج الزميلات بالصوت العالي أو صوت الراديو أو المسجل أو التلفزيون"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="إطفاء كهرباء غرفة النوم بعد الثانية عشرة مساءً ومتابعة الدراسة في القاعات المخصصة لذلك"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="لا يجوز للطالبة أن تقوم بتغيير غرفتها إلا بعد أخد موافقة خطية من مشرفة المنازل"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="الهاتف وجد لخدمة الطالبة وقت الضرورة ، يرجى عدم إساءة استعماله والطالبة مسؤولة عن جميع المكالمات الصادرة منه"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="أ. على الطالبة التقيد بموعد إغلاق السكن الذي تحدده دائرة إسكان الطالبات"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="ب. على الطالبة التواجد في غرفتها في الساعة التي تحددها المشرفة للتفقد اليومي"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="ج . على الطالبة التي ترغب بالمبيت خارج المنزل و في عطلة نهاية الأسبوع و في العطل الرسمية تعبئة"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="النموذج الخاص بأذونات المبيت فقط عند الأسماء الواردة في الإقرار الذي وقع عليه ولي أمر الطالبة"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="د.على الطالبة تسليم جميع المفاتيح والعهدة الكاملة إلى المشرفة المسؤولة قبل مغادرتها المنزل في نهاية الفصل الدراسي"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="على الطالبة أخذ كل ما يخصها من أمتعة و كتب في نهاية كل فصل  دراسي، إدارة المنازل ستخلى كل محتويات الغرفة للصيانة  ​و تقوم بإتلاف كل ما تبقيه الطالبات في غرفهن"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="على الطالبة التي ترغب بالاشتراك بالرحلات الجامعية العامة أو الخاصة بالكلية أن تتأكد من تنسيق منظم الرحلة وإدارة السكن للحصول على إذن خطي من إدارة السكن قبل بدء الرحلة بثلاثة أيام على الأقل"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="غرفة النوم سكن خاص للطالبات لا يجوز دخولها لغير الطالبات المسجلات في السكن"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="تستقبل الطالبة ضيوفها من الأقارب في القاعات المخصصة لذلك وفي المواعيد التي تحددها دائرة إسكان الطالبات"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="على الطالبة المريضة مراجعة الطبيب الموجود في الجامعة و في الحالات  المفاجئة والطارئة ليلاً تبلغ الطالبة المشرفة لاتخاذ الإجراءات المناسبة"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="حرصاً على السلامة العامة:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="يمنع التدخين والأراجيل في السكن"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="عدم ترك الأواني المنزلية الغير نظيفة داخل المطبخ أو في الغرف وستدفع الطالبة غرامة مالية لأي مخالفة للبندين السابقين"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="لا يسمح بمبيت أياً كان من خارج السكن من القريبات أو الزميلات و بدون علم الإدارة تجنباً لأية مشاكل قد تحدث نتيجة لهذا التصرف"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="لا تعتبر الغرفة حق للطالبة ويحق لإدارة السكن تغييرها حسب ما تقتضيه المصلحة العامة"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="على كل طالبة متابعة مواعيد إغلاق وفتح السكن والتي يعلن عنها في بداية ونهاية كل فصل دراسي والالتزام بها"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="مخالفة الأنظمة و التعليمات المعمول بها في المنازل الداخلية تعرض الطالبة لإحدى العقوبات التالية:"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="التنبيه"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="الإنذار بدرجاته الثلاث"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="الفصل من المنزل"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="دفع الغرامات المقررة"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

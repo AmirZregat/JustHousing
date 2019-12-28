@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addparentforuserr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="الرقم الجديد لولي الامر"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/parentID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg3"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:text="كلمة السر"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/parentPassword"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg3"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:text="الرقم الجامعي للطالبة"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/StudentIDD"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bg3"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="" />
+
+        <Button
+            android:id="@+id/addusertodatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_bg4"
+            android:text="إضافة"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

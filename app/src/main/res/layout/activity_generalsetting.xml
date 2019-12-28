@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generalsetting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/settings" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/turnONrequest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_bg4"
+                    android:text="تفعيل طلبات الاقامة"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/StopRequests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="ايقاف طلبات الاقامة"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/addsuperandpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="إضافة مشرفة جديدة الى قاعدة البيانات"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/AddSupervisro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="توزيع المشرفات"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/summerprices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="تغيير الأسعار للفصل الصيفي"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/changepasswordformanager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="تعديل كلمة السر للمدير"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/changepasswordforSuper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="تعديل كلمة السر للمشرفة "
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/adduserforparents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="اضافة اسم مستخدم وكلمة سر لولي أمر الطالبة"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/normalprices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="تغيير الاسعار للفصول العادية"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/DeleteAllInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg4"
+                    android:text="افراغ البيانات"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

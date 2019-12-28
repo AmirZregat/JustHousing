@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newversion">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".show_ads"></activity>
+        <activity android:name=".changeroomforAdmin" />
+        <activity android:name=".changeRoom" />
+        <activity android:name=".showSleepRequestsForGuardian" />
+        <activity android:name=".regulationsAndInstructions" />
+        <activity android:name=".guest_page" />
+        <activity android:name=".absents" />
+        <activity android:name=".taahd" />
+        <activity android:name=".sleep_per_supervisor" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".maintainSuperovisor" />
+        <activity android:name=".penaltiforsupervisro" />
+        <activity android:name=".req_maintenance" />
+        <activity android:name=".changepasswordformanager" />
+        <activity android:name=".changepasswordforsuper" />
+        <activity android:name=".compiantActivit" />
+        <activity android:name=".addPersonsName" />
+        <activity android:name=".guardianAuthorization" />
+        <activity android:name=".guardian_page" />
+        <activity android:name=".laundryRoom" />
+        <activity android:name=".make_complaints" />
+        <activity android:name=".req_permission_for_sleep" />
+        <activity android:name=".internetRoom" />
+        <activity android:name=".StudentInfo" />
+        <activity android:name=".student_info_page" />
+        <activity android:name=".student_page" />
+        <activity android:name=".penalti" />
+        <activity android:name=".addAds" />
+        <activity android:name=".addingsuperviso" />
+        <activity android:name=".add_Supervisor" />
+        <activity android:name=".ReadONLY_Room_Price" />
+        <activity android:name=".supervisor" />
+        <activity android:name=".stop_request" />
+        <activity android:name=".showinfoo" />
+        <activity android:name=".addparentforuserr" />
+        <activity android:name=".generalsetting" />
+        <activity android:name=".AdminPage" />
+        <activity android:name=".prereserv" />
+        <activity android:name=".Requestpage1" />
+        <activity android:name=".regesterpage" />
+        <activity android:name=".ResidenceRequests" />
+        <activity android:name=".Home" />
+        <activity android:name=".login" />
+    </application>
+
+</manifest>

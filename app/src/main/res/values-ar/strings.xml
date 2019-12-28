@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Housing</string>
+    <string name="lang">تغيير اللغة</string>
+    <string name="laundry">غرفة الغسيل</string>
+    <string name="makeComplaint">تقديم شكوى</string>
+    <string name="perosnalInfo">المعلومات الشخصية</string>
+    <string name="reqMaintenance">طلب صيانة</string>
+    <string name="signout">تسجيل الخروج</string>
+    <string name="sleepout">طلب مبيت</string>
+    <string name="internet">غرفة الانترنت</string>
+    <string name="absents">الغيابات</string>
+    <string name="edit">تعديل</string>
+    <string name="ChangeRoom">تبديل الغرفة</string>
+    <string name="ads">الاعلانات</string>
+
+    <string name="save">حفظ</string>
+
+    <string name="ILStatus">حالة الغرفة</string>
+    <string name="ILReserve">حجز</string>
+    <string name="ILEndreserve">انهاء الحجز</string>
+    <string name="ILToast1">الرجاء الضغط على انهاء الحجز عند الانتهاء</string>
+    <string name="ILToast2">يمكنك الحجز !</string>
+    <string name="ILToast3">الغرفة ممتلئه !</string>
+    <string name="ILToast4">نتمنى لكم يوماً جميلا</string>
+
+    <!--studentInfoPage -->
+    <string name="StudentPhoneNumber">رقم هاتف الطالبة</string>
+    <string name="BrotherPhoneNumber">رقم هاتف الاخ</string>
+    <string name="MotherPhoneNumber">رقم هاتف الام</string>
+    <string name="FahterPhoneNumber">رقم هاتف الاب</string>
+    <string name="HomePhoneNumber">رقم هاتف المنزل</string>
+    <string name="infoSaved">تم حفظ البيانات!</string>
+
+    <!-- studentinfoPage-->
+    <string name="sName">الاسم</string>
+    <string name="sRoomNumber">رقم الغرفة</string>
+    <string name="sBuldingNumber">رقم المبنى</string>
+    <string name="sStudentPhone">هاتف الطالبة</string>
+    <string name="sFatherPhone">هاتف الأب</string>
+    <string name="sMotherPhone">هاتف الأم</string>
+    <string name="sBrotherPhone">هاتف الأخ</string>
+    <string name="sHomePhone">هاتف المنزل</string>
+    <string name="sCity">المدينة</string>
+    <string name="sStreet">الشارع</string>
+    <string name="sNighberhood">الحي</string>
+    <string name="sEmail">البريد الالكتروني</string>
+    <string name="sClient">اسم الموكل اليه</string>
+    <string name="sDaytrips">اشتراك رحلات اليوم الواحد</string>
+    <string name="sMoreDaytrips">اشتراك رحلات اكثر من يوم</string>
+    <string name="sSleepoutinholidays">مبيت خارج السكن خلال العطل</string>
+    <string name="sSleepout">مبيت خارج السكن</string>
+    <string name="sperson1">الشخص المسموح بالمبيت عنده 1</string>
+    <string name="sperson2">الشخص المسموح بالمبيت عنده 2</string>
+    <string name="sperson3">الشخص المسموح بالمبيت عنده 3</string>
+    <string name="sperson4">الشخص المسموح بالمبيت عنده 4</string>
+    <string name="sperson5">الشخص المسموح بالمبيت عنده 5</string>
+
+    <!-- req permission for sleep-->
+    <string name="sleepPer_choosePerson">اختر الشخص المراد المبيت عنده</string>
+    <string name="sleepPer_ouDate">تاريخ الخروج</string>
+    <string name="sleepPer_backDate">تاريخ العوده</string>
+    <string name="sleepPer_Sendreq">ارسال الطلب</string>
+    <string name="sleepPer_toast1">لا يمكن ترك التاريخ فارغا</string>
+    <string name="sleepPer_toast2">تم ارسال الطلب</string>
+
+    <!-- req maintenance-->
+    <string name="maintenance_problem">الرجاء كتابة المشكلة لطلب الصيانة</string>
+    <string name="maintenance_reqbtn">طلب الصيانة</string>
+    <string name="maintenance_toast">تم طلب الصيانة..سيتم حل المشكلة بأقرب وقت</string>
+
+    <!--make complaint-->
+    <string name="comp_complaintOn">شكوى على</string>
+    <string name="comp_Student">طالبة</string>
+    <string name="comp_super">مشرفة</string>
+    <string name="comp_nameofthesuper">اسم المشرفة المشتكى عليها</string>
+    <string name="comp_nameofthestudent">اسم الطالبة المشتكى عليها</string>
+    <string name="comp_text">الشكوى</string>
+    <string name="comp_taqdemalshakwa">تقديم الشكوى</string>
+    <string name="comp_done">تم قديم الشكوى</string>
+    <string name="comp_choose">اختر مشرفة او طالبة</string>
+    <!--login page -->
+
+    <string name="login">تسجيل الدخول</string>
+    <string name="userID">رقم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="guest">تسجيل الدخول كَزائر</string>
+    <string name="loginbtn">دخول</string>
+
+    <string name="chooselang">اختر اللغة..</string>
+    <string name="done">تم</string>
+
+    <string name="yourId">رقمك الجامعي</string>
+    <string name="friendId">الرقم الجامعي للطالبة المراد تبديل الغرفة معها</string>
+    <string name="RequestsSent">الطلبات المرسلة</string>
+    <string name="statusrequest">حالة الطلب  </string>
+    <string name="ta2ked">تأكيد</string>
+
+
+</resources>

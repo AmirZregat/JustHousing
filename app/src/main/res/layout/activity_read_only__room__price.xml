@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadONLY_Room_Price">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="أنواع وأسعار الغرف"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:text=" سكن الاستوديوهات B4:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="استوديو مفرد يحوي مطبخ ،حمام ،مكيف ،ثلاجه و مايكروييف
+الرسوم 1250دينار للفصل الدراسي الواحد ."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="استوديو مزدوج يحوي مطبخ ،حمام،مكيف،ثلاجه ، مايكروييف
+الرسوم 1500دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة ثلاثية خدماتها مشتركة 250 دينارللفصل الدراسي الواحد للطالبة الواحدة" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مزدوجة الحمام و المطبخ مشترك
+الرسوم 600دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:text="سكن الأميرة بسمه للطالبات :"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مفردة في سكن الأميرة بسمة الجناح الأول تحوي حمام لمطبخ مشترك
+الرسوم 1000دينار للفصل الدراسي الواحد."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مزدوجة في سكن الأميرة بسمة الجناح الأول تحوي حمام المطبخ مشترك
+الرسوم 1200دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مفرده في سكن الأميرة بسمه الجناح الثاني تحوي مطبخ و حمام
+الرسوم 1100دينار للفصل الدراسي الواحد."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مفردة في سكن الأميرة بسمه الجناح الثاني تحوي حمام
+الرسوم 1050دينار للفصل الدراسي الواحد."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مزدوجة في سكن الأميرة بسمة تحوي حمام الرسوم 1300دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مزدوجة في سكن الأميرة بسمة تحوي مطبخ و حمام
+الرسوم 1400دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:text="مباني السكن 1-10 تضم ​الغرف التالية:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة خاصة  تحوي حمام المطبخ مشترك
+لرسوم 660دينار للفصل الدراسي الواحد."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مفردة الحمام و المطبخ مشترك
+الرسوم 492دينار للفصل الدراسي الواحد."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="غرفة مزدوجة الحمام و المطبخ مشترك
+الرسوم 600دينار للفصل الدراسي الواحد مناصفة بين الطالبتين"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:text="ملاحظة: الفصل الصيفي نصف السعر"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

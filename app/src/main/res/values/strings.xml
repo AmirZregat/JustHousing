@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Just Housing</string>
+    <array name="namesOfcomp">
+        <item>مشرفة</item>
+        <item>طالبة</item>
+    </array>
+
+    <!--Student-->
+    <string name="ChangeRoom">Change Room</string>
+    <string name="ads">ads</string>
+    <string name="perosnalInfo">Personal Info</string>
+    <string name="reqMaintenance">Request Maintenance</string>
+    <string name="laundry">Laundry Room</string>
+    <string name="internet">Internet Room</string>
+    <string name="signout">Logout</string>
+    <string name="sleepout">Request Sleep out Permission</string>
+    <string name="makeComplaint">Make Complaint</string>
+    <string name="lang">Change Language</string>
+    <string name="absents">Absence</string>
+    <string name="edit">Edit</string>
+    <string name="done">done!</string>
+    <!--laundry/inernet Room-->
+    <string name="ILStatus">Room status</string>
+    <string name="ILReserve">Reserve</string>
+    <string name="ILEndreserve">End Reservation</string>
+    <string name="ILToast1">Please click on End Reservation when you are finished</string>
+    <string name="ILToast2">You can reserve</string>
+    <string name="ILToast3">The room is full</string>
+    <string name="ILToast4">Have a nice day!</string>
+
+
+    <!--studentInfoPage -->
+    <string name="StudentPhoneNumber">Student Phone Number</string>
+    <string name="BrotherPhoneNumber">Brother Phone Number</string>
+    <string name="MotherPhoneNumber">Mother Phone Number</string>
+    <string name="FahterPhoneNumber">Father Phone Number</string>
+    <string name="HomePhoneNumber">Home Phone Number</string>
+    <string name="infoSaved">info saved!</string>
+
+    <string name="save">save!</string>
+
+    <!-- studentinfo-->
+    <string name="sName">Student Name</string>
+    <string name="sRoomNumber">Room Number</string>
+    <string name="sBuldingNumber">Building Number</string>
+    <string name="sStudentPhone">Student Phone Number</string>
+    <string name="sFatherPhone">Father Phone Number</string>
+    <string name="sMotherPhone">Mother Phone Number</string>
+    <string name="sBrotherPhone">Brother Phone Number</string>
+    <string name="sHomePhone">Home Phone Number</string>
+    <string name="sCity">City</string>
+    <string name="sStreet">Street</string>
+    <string name="sNighberhood">Neighborhood</string>
+    <string name="sEmail">Email</string>
+    <string name="sClient">Name of the client</string>
+    <string name="sDaytrips">Participation in one day trip</string>
+    <string name="sMoreDaytrips">Participation in more than one day trip</string>
+    <string name="sSleepoutinholidays">Sleep out in holidays</string>
+    <string name="sSleepout">Sleep out</string>
+    <string name="sperson1">Person 1</string>
+    <string name="sperson2">Person 2</string>
+    <string name="sperson3">Person 3</string>
+    <string name="sperson4">Person 4</string>
+    <string name="sperson5">Person 5</string>
+
+
+    <!-- req permission for sleep-->
+    <string name="sleepPer_choosePerson">Choose where you want to sleep</string>
+    <string name="sleepPer_ouDate">Going date</string>
+    <string name="sleepPer_backDate">Back date</string>
+    <string name="sleepPer_Sendreq">Send Request</string>
+    <string name="sleepPer_toast1">You cant leave date empty!</string>
+    <string name="sleepPer_toast2">Done!</string>
+
+
+    <!-- req maintenance-->
+    <string name="maintenance_problem">Please write your problem below!</string>
+    <string name="maintenance_reqbtn">Request maintenance</string>
+    <string name="maintenance_toast">Maintenance requested!</string>
+
+    <!--make complaint-->
+    <string name="comp_complaintOn">Complaint on</string>
+    <string name="comp_Student">Student</string>
+    <string name="comp_super">Supervisor</string>
+    <string name="comp_nameofthesuper">Name of the supervisor</string>
+    <string name="comp_nameofthestudent">Name of the student </string>
+    <string name="comp_text">Complaint text</string>
+    <string name="comp_taqdemalshakwa">Make complaint!</string>
+    <string name="comp_done">Done!</string>
+    <string name="comp_choose">Choose Supervisor or Student</string>
+
+
+    <!--login page -->
+    <string name="login">Login</string>
+    <string name="loginbtn">Login</string>
+    <string name="userID">User ID</string>
+    <string name="password">Password</string>
+    <string name="guest">Login as Guest</string>
+
+    <string name="chooselang">Choose Language</string>
+    <string name="yourId">Your ID</string>
+    <string name="friendId">ID of your friend that you want to change room with her</string>
+    <string name="RequestsSent">Requests sent</string>
+    <string name="statusrequest">Order status  </string>
+    <string name="ta2ked">Accept</string>
+</resources>
